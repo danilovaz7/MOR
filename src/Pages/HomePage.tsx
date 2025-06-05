@@ -201,7 +201,7 @@ export default function HomePage() {
       {showForm && (
         <form
           onSubmit={handleSubmit}
-          className="p-4 bg-gray-100 flex flex-col gap-4"
+          className="p-4 text-black bg-gray-100 flex flex-col gap-4"
         >
           <h2 className="text-xl font-semibold">
             Informe os endereços (incluindo número, cidade, bairro e CEP se possível):
@@ -228,7 +228,7 @@ export default function HomePage() {
                   }
                   value={addr}
                   onChange={(e) => updateAddressText(idx, e.target.value)}
-                  className="px-3 py-2 border rounded-md w-full"
+                  className="px-3 text-white py-2 border rounded-md w-full"
                 />
               </div>
 
